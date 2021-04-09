@@ -11,10 +11,6 @@ import matplotlib.pyplot as plt
 
 
 
-CONSUMER_KEY='t0SsYm8d8WDvbMV0W52MaBla9'
-CONSUMER_SECRET='tVxbyPJl9WeEPdxpzomBOl2m7g57D9glb8y2795gewXE6hWdJq'
-OAUTH_TOKEN='506633547-vENQDAojySan0mPGqZfjzH4rzQWwrXzQvYEqOlo3'
-OAUTH_TOKEN_SECRET='enkxaneXYugAq5j3D6ij7eicWtGykMjUcfdtOcrLBoEbf'
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                                        CONSUMER_KEY, CONSUMER_SECRET)
